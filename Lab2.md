@@ -17,6 +17,11 @@ abline( h=0, lty=2, col="gray" )
 
 ``` r
 dir.create("gifs")
+```
+
+    ## Warning in dir.create("gifs"): 'gifs' already exists
+
+``` r
 setwd("gifs")
 
 #x <- cumsum( rnorm(100) )
